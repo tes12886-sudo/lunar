@@ -10,7 +10,6 @@ export default function handler(req, res) {
 
   // Mengembalikan respon sukses untuk key apa saja
   return res.status(200).json({
-    ok: true,
-    message: "Login successful!"
+    ok: true
   });
 }
